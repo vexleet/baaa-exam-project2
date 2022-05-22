@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/main.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="flex justify-between bg-primary-900 items-center px-4 py-2">
+        <img class="w-14" src="assets/logo.png" alt="Logo of Scorpio bike"/>
+
+        <div class="cursor-pointer lg:hidden">
+            <div class="h-1 bg-white w-12 rounded mb-2"></div>
+            <div class="h-1 bg-white w-12 rounded mb-2"></div>
+            <div class="h-1 bg-white w-12 rounded"></div>
+        </div>
+
+        <ul class="hidden lg:flex">
+            <li class="navigation-list"><a href="about-us.html">About us</a></li>
+            <li class="navigation-list"><a href="services.html">Services</a></li>
+            <li class="navigation-list"><a href="bikes.html">Bikes</a></li>
+            <li class="navigation-list"><a href="tips-tricks.html">Tips & Tricks</a></li>
+            <li class="navigation-list"><a href="contact.html">Contact us</a></li>
+        </ul>
+    </div>
+
+    <section class="relative flex text-center items-center justify-center flex-col h-60 lg:h-96">
+        <div class="bg-black opacity-50 w-full h-full absolute -z-10"></div>
+        <img class="absolute top-0 left-0 -z-20 h-full w-full object-cover" src="assets/home-header.jpeg"
+             alt="A wall with instruments for fixing bikes"/>
+
+        <h1 class="uppercase font-bold text-4xl text-white">TIPS & TRICKS</h1>
+        <p class="uppercase font-normal text-lg text-white">Quick fixes that you can easily do yourself.</p>
+    </section>
+</header>
+
+<main class="py-5 px-4 bg-primary-900 h-full">
+    <div class="lg:flex lg:justify-between">
+        <section class="lg:w-2/3">
+            <div class="flex flex-col">
+                <article class="flex flex-col lg:w-full lg:mb-5">
+                    <img class="w-full h-40 object-cover lg:h-60" src="assets/home-header.jpeg"/>
+
+                    <div class="pl-1">
+                        <h3 class="text-white text-2xl font-bold">How to oil your bike</h3>
+                        <p class="text-white text-md">Follow along, if you want to learn how to oil your bike like a
+                            professional.</p>
+                    </div>
+                </article>
+
+                <article class="flex flex-col mt-5 lg:mt-0 lg:w-full lg:mb-5">
+                    <img class="w-full h-40 object-cover lg:h-60" src="assets/home-header.jpeg"/>
+
+                    <div class="pl-1">
+                        <h3 class="text-white text-2xl font-bold">How to change your tires</h3>
+                        <p class="text-white text-md">You always wanted to find out how to change your tires yourself? I
+                            got
+                            you.</p>
+                    </div>
+                </article>
+
+                <article class="flex flex-col mt-5 lg:mt-0 lg:w-full lg:mb-5">
+                    <img class="w-full h-40 object-cover lg:h-60" src="assets/home-header.jpeg"/>
+
+                    <div class="pl-1">
+                        <h3 class="text-white text-2xl font-bold">How to fix jumping gears</h3>
+                        <p class="text-white text-md">A very common issue that is easy to fix.
+                            All you need is a screwdriver and patience.</p>
+                    </div>
+                </article>
+            </div>
+            <button class="btn mx-auto block mt-5">View more</button>
+        </section>
+
+        <section
+            class="bg-primary-700 flex flex-col justify-center items-center rounded mt-3 py-6 px-3 lg:self-start lg:mt-0 lg:w-1/4 lg:sticky lg:top-5">
+            <div>
+                <h2 class="text-white uppercase text-4xl text-center">Newsletter</h2>
+                <p class="text-white uppercase text-sm text-center">no spam - just infos & discounts.</p>
+
+                <div class="text-center ">
+                    <label>
+                        <input name="email" placeholder="Email" class="border-0 outline-0 rounded p-2 mt-4"/>
+                    </label>
+
+                    <button class="btn block mt-5 mx-auto">Subscribe</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+</body>
+</html>
