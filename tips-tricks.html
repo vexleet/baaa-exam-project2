@@ -7,16 +7,18 @@
 </head>
 <body>
 <header>
-    <div class="flex justify-between bg-primary-900 items-center px-4 py-2">
-        <img class="w-14" src="assets/logo.png" alt="Logo of Scorpio bike"/>
+    <div class="flex relative justify-between bg-primary-900 items-center px-4 py-2" id="navigation">
+        <a href="index.html">
+            <img class="w-14" src="assets/logo.png" alt="Logo of Scorpio bike"/>
+        </a>
 
-        <div class="cursor-pointer lg:hidden">
+        <div class="cursor-pointer lg:hidden hamburger">
             <div class="h-1 bg-white w-12 rounded mb-2"></div>
             <div class="h-1 bg-white w-12 rounded mb-2"></div>
             <div class="h-1 bg-white w-12 rounded"></div>
         </div>
 
-        <ul class="hidden lg:flex">
+        <ul class="hidden absolute lg:relative lg:h-auto bg-primary-900 lg:w-auto w-full left-0 lg:top-0 top-[75px] h-[calc(100vh-75px)] z-50 flex-col items-center lg:flex-row lg:flex">
             <li class="navigation-list"><a href="about-us.html">About us</a></li>
             <li class="navigation-list"><a href="services.html">Services</a></li>
             <li class="navigation-list"><a href="bikes.html">Bikes</a></li>
@@ -90,5 +92,6 @@
         </section>
     </div>
 </main>
+<script src="scripts/navigation.js"></script>
 </body>
 </html>

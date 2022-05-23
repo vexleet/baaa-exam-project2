@@ -4,7 +4,23 @@
 
 @layer components {
     .navigation-list {
-        @apply text-white ml-5 font-bold text-lg hover:underline hover:text-secondary transition-all ease-linear duration-300;
+        @apply text-white ml-5 font-bold mt-5 lg:mt-0 text-3xl lg:text-lg hover:underline hover:text-secondary transition-all ease-linear duration-300;
+    }
+
+    #navigation > .hamburger div {
+        @apply transition-all ease-in-out duration-500;
+    }
+
+    #navigation.active > .hamburger > div:nth-child(2) {
+        @apply opacity-0;
+    }
+
+    #navigation.active > .hamburger > div:first-of-type {
+        @apply rotate-45 -translate-x-[4px] translate-y-[8px];
+    }
+
+    #navigation.active > .hamburger > div:last-of-type {
+        @apply -rotate-45 -translate-x-[4px] -translate-y-[15px];
     }
 
     .page-card {
