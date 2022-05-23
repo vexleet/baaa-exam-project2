@@ -965,6 +965,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: calc(100% - 0.25rem);
 }
 
+.max-h-\[180px\] {
+  max-height: 180px;
+}
+
 .w-14 {
   width: 3.5rem;
 }
@@ -1009,6 +1013,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-sm {
   max-width: 24rem;
+}
+
+.max-w-\[250px\] {
+  max-width: 250px;
 }
 
 .flex-shrink {
@@ -1492,6 +1500,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-items-stretch {
   justify-items: stretch;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -2927,6 +2947,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
+  .lg\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .lg\:items-center {
     align-items: center;
   }
@@ -2937,6 +2961,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:justify-around {
     justify-content: space-around;
+  }
+
+  .lg\:gap-5 {
+    gap: 1.25rem;
   }
 
   .lg\:self-start {
