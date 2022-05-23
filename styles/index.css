@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/*@layer base {*/
+/*    html {*/
+/*        font-family: Proxima Nova, system-ui, sans-serif;*/
+/*    }*/
+/*}*/
+
 @layer components {
     .navigation-list {
         @apply text-white ml-5 font-bold mt-5 lg:mt-0 text-3xl lg:text-lg hover:underline hover:text-secondary transition-all ease-linear duration-300;
