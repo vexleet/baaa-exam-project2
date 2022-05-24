@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Akira Super";
+    src: url(../assets/fonts/Akira.otf);
+}
+
+@font-face {
+    font-family: "Norwester";
+    src: url(../assets/fonts/norwester.otf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

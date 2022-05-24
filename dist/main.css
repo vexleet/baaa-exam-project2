@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Akira Super";
+
+  src: url(../assets/fonts/Akira.otf);
+}
+
+@font-face {
+  font-family: "Norwester";
+
+  src: url(../assets/fonts/norwester.otf);
+}
+
 /*
 ! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
 */
@@ -794,12 +806,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 0.5rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mt-3 {
@@ -1509,14 +1521,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-items-stretch {
   justify-items: stretch;
-}
-
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
 }
 
 .gap-2 {
