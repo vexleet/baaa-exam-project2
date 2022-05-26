@@ -1,7 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  content: ["./**/*.{html,js}"],
+  content: ["index.html", "about-us.html", "bikes.html", "services.html", "tips-tricks.html", "styles/**"],
   theme: {
     extend: {
       colors: {

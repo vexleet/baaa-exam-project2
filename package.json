@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tailwindcss -i ./styles/index.css -o ./dist/main.css --watch"
+    "start": "npx tailwindcss -i ./styles/index.css -o ./dist/main.css --watch --minify"
   },
   "repository": {
     "type": "git",
