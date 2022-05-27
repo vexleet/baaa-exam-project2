@@ -8,6 +8,11 @@
     src: url(../assets/fonts/norwester.otf);
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

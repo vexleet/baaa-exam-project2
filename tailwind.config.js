@@ -13,7 +13,8 @@ module.exports = {
       },
       fontFamily: {
         'sans': ['Norwester', ...defaultTheme.fontFamily.sans],
-        'akira': ['"Akira Super"']
+        'akira': ['"Akira Super"'],
+        'montserrat': ['Montserrat']
       }
     },
 
